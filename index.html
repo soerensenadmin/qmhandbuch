@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>QM-Handbuch Login</title>
+</head>
+<body style="margin: 0; background-color: #f0f2f5; font-family: Arial, sans-serif;">
+
+  <div style="
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+  ">
+
+    <!-- Logo -->
+    <img src="assets/LogoClaim_Bildwort_schwarz-gelb.png" alt="Logo" style="height: 60px; margin-bottom: 20px;">
+
+    <h1 style="margin-bottom: 10px;">QM-Handbuch</h1>
+    <p style="margin: 5px 0;">Sörensen Hydraulik GmbH</p>
+    <p style="margin: 20px 0 30px;">Bitte Passwort eingeben, um fortzufahren:</p>
+
+    <!-- Eingabefeld -->
+    <input type="password" id="password" placeholder="Passwort" style="
+      width: 90%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    ">
+
+    <!-- Login-Button -->
+    <button onclick="checkPassword()" style="
+      width: 90%;
+      padding: 12px;
+      background-color: #FFBD39;
+      border: none;
+      font-weight: bold;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    ">
+      Login
+    </button>
+
+    <p id="error-msg" style="color: red; margin-top: 20px;"></p>
+  </div>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>

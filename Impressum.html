@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <script>
+  // Einfacher Schutz mit SessionStorage
+  if (sessionStorage.getItem("auth") !== "true") {
+    window.location.href = "../index.html"; // Leitet zurück zur Login-Seite
+  }
+</script>
+
+    <meta charset="UTF-8">
+    <title>Produktion – QM-Handbuch</title>
+    <link rel="stylesheet" href="../assets/styles.css"> <!-- Woher er sein Sytle/ Aussehen nimmt -->
+    <style>
+  .topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FFBD39;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1000;
+  }
+
+  .topbar a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+  .nav-left {
+    display: flex;
+    gap: 15px;
+  }
+ .nav-right {
+    display: flex;
+    align-items: center;
+    padding-right: 50px; /* Abstand vom rechten Rand */
+  }
+  .topbar-logo {
+    height: 40px;
+  }
+
+  body {
+    margin-top: 80px; /* Platz für die fixierte Topbar */
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+  }
+</style>
+
+</head>
+<body>
+<nav class="topbar">
+  <div class="nav-left">
+    <a href="../info.html">Startseite</a>
+    <a href="../prozesslandkarte.html">Prozesslandkarte</a>
+    <a href="../Impressum.html">Impressum | Qualitätspolitik</a>
+  </div>
+  <div class="nav-right">
+    <img src="../assets/LogoClaim_Bildwort_schwarz-gelb.png" alt="Logo" class="topbar-logo">
+  </div>
+</nav>
+
+    <h1>Impressum & Qualitätspolitik</h1>
+
+    <section>
+        <h2>1. Anbieterkennzeichnung gemäß § 5 TMG</h2>
+        <p>
+            <strong>Firma:</strong><br>
+            Sörensen Hydraulik GmbH<br>
+            Osterrade 3<br>
+            21031 Freie und Hansestadt Hamburg<br><br>
+
+            <strong>Vertreten durch:</strong><br>
+            Karina Sörensen (Geschäftsführerin)<br>
+            Ingo Meyer (Geschäftsführer)<br><br>
+
+            <strong>Kontakt:</strong><br>
+            Telefon: +49 (0)40 / 739 606 0<br>
+            E-Mail: info@soerensen.de<br><br>
+
+            <strong>Handelsregister:</strong><br>
+            Registergericht Hamburg B19595<br><br>
+
+            <strong>Umsatzsteuer-ID gemäß §27a Umsatzsteuergesetz:</strong><br>
+            DE118629682<br><br>
+
+            <strong>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</strong><br>
+            Karina Sörensen<br>
+        </p>
+    </section>
+
+    <section>
+        <h2>2. Qualitätspolitik nach DIN EN ISO 9001:2015 – Rev. 8</h2>
+        <p>
+            Die Geschäftsführung verpflichtet sich zur Einhaltung der Anforderungen der DIN EN ISO 9001:2015.
+            Unsere Qualitätspolitik basiert auf kontinuierlicher Verbesserung, Mitarbeiterförderung und
+            höchster Kundenzufriedenheit. Die Inhalte dieses Qualitätsmanagementsystems werden regelmäßig überprüft,
+            weiterentwickelt und allen Mitarbeitenden zugänglich gemacht.
+        </p>
+
+        <ul>
+            <li>Erfüllung aller Kundenanforderungen</li>
+            <li>Verantwortungsbewusste Führung und Organisation</li>
+            <li>Messbare Qualitätsziele</li>
+            <li>Förderung der Mitarbeitenden</li>
+            <li>Systematische Fehlervermeidung</li>
+            <br>
+            <li><a href="../QM-PDFs/qm-handbuch.pdf" target="_blank">Qualitätspolitik (PDF)</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>3. Technische Umsetzung & Hosting</h2>
+        <p>
+            Diese Webseite wurde im Rahmen der internen Digitalisierung des Qualitätsmanagements der
+            Sörensen Hydraulik GmbH entwickelt und wird über <strong>GitHub Pages</strong> veröffentlicht.<br><br>
+
+            <strong>Entwicklung & technische Umsetzung:</strong><br>
+            Tolunay Terzi, B.Sc. Software Engineering<br>
+            IT-Systemadministrator & Full Stack Entwickler<br>
+            Osterrade 3, 21031 Freie und Hansestadt Hamburg
+            <br><br>
+        </p>
+    </section>
+
+</body>
+</html>
