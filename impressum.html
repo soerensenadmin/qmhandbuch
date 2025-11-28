@@ -4,13 +4,13 @@
     <script>
   // Einfacher Schutz mit SessionStorage
   if (sessionStorage.getItem("auth") !== "true") {
-    window.location.href = "../index.html"; // Leitet zurück zur Login-Seite
+    window.location.href = "/qmhandbuch/index.html"; // Leitet zurück zur Login-Seite
   }
 </script>
 
     <meta charset="UTF-8">
     <title>Produktion – QM-Handbuch</title>
-    <link rel="stylesheet" href="../assets/styles.css"> <!-- Woher er sein Sytle/ Aussehen nimmt -->
+    <link rel="stylesheet" href="/qmhandbuch/assets/styles.css"> <!-- Woher er sein Sytle/ Aussehen nimmt -->
     <style>
   .topbar {
     position: fixed;
@@ -59,10 +59,10 @@
   <div class="nav-left">
     <a href="/qmhandbuch/info.html">Startseite</a>
     <a href="/qmhadbuch/prozesslandkarte.html">Prozesslandkarte</a>
-    <a href="/qmhandbuch/Impressum.html">Impressum | Qualitätspolitik</a>
+    <a href="/qmhandbuch/impressum.html">Impressum | Qualitätspolitik</a>
   </div>
   <div class="nav-right">
-    <img src="../assets/LogoClaim_Bildwort_schwarz-gelb.png" alt="Logo" class="topbar-logo">
+    <img src="/qmhandbuch/assets/LogoClaim_Bildwort_schwarz-gelb.png" alt="Logo" class="topbar-logo">
   </div>
 </nav>
 
@@ -111,7 +111,7 @@
             <li>Förderung der Mitarbeitenden</li>
             <li>Systematische Fehlervermeidung</li>
             <br>
-            <li><a href="../QM-PDFs/qm-handbuch.pdf" target="_blank">Qualitätspolitik (PDF)</a></li>
+            <li><a href="/qmhandbuch/QM-PDFs/qm-handbuch.pdf" target="_blank">Qualitätspolitik (PDF)</a></li>
         </ul>
     </section>
 
