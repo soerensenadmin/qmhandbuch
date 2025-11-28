@@ -4,23 +4,23 @@
     <script>
   // Einfacher Schutz mit SessionStorage
   if (sessionStorage.getItem("auth") !== "true") {
-    window.location.href = "/index.html"; // Leitet zurück zur Login-Seite
+    window.location.href = "/qmhandbuch/index.html"; // Leitet zurück zur Login-Seite
   }
 </script>
 
     <meta charset="UTF-8">
     <title>Produktion – QM-Handbuch</title>
-    <link rel="stylesheet" href="assets/styles.css"> <!-- Woher er sein Sytel/ Aussehen nimmt -->
+    <link rel="stylesheet" href="/qmhandbuch/assets/styles.css"> <!-- Woher er sein Sytel/ Aussehen nimmt -->
 </head>
 <body>
 <nav class="topbar">
   <div class="nav-left">
-    <a href="info.html">Startseite</a>
-    <a href="prozesslandkarte.html">Prozesslandkarte</a>
-    <a href="impressum.html">Impressum | Qualitätspolitik</a>
+    <a href="/qmhandbuch/info.html">Startseite</a>
+    <a href="/qmhandbuch/prozesslandkarte.html">Prozesslandkarte</a>
+    <a href="/qmhandbuch/impressum.html">Impressum | Qualitätspolitik</a>
   </div>
   <div class="nav-right">
-    <img src="assets/LogoClaim_Bildwort_schwarz-gelb.png" alt="Logo" class="topbar-logo">
+    <img src="/qmhandbuch/assets/LogoClaim_Bildwort_schwarz-gelb.png" alt="Logo" class="topbar-logo">
   </div>
 </nav>
 
@@ -29,9 +29,9 @@
     <section>
         <h2>Managementprozesse</h2>
         <div class="button-grid">
-            <a href="Bereiche/geschaftsfuhrung.html"style="Font-size: 20px">Geschäftsführung</a>
+            <a href="/qmhandbuch/Bereiche/geschaftsfuhrung.html"style="Font-size: 20px">Geschäftsführung</a>
             <a href="#" onclick="return false;" style="font-size: 20px; pointer-events: none; opacity: 0.5; cursor: not-allowed;">Finanzen</a>
-            <a href="Bereiche/qm.html"style="Font-size: 20px">Qualitätsmanagement</a>
+            <a href="/qmhandbuch/Bereiche/qm.html"style="Font-size: 20px">Qualitätsmanagement</a>
             <a href="#" onclick="return false;" style="font-size: 20px; pointer-events: none; opacity: 0.5; cursor: not-allowed;">Marketing & Kommunikation</a>
         </div>
     </section>
@@ -39,22 +39,22 @@
     <section>
         <h2>Kernprozesse</h2>
         <div class="button-grid">
-            <a href="Bereiche/lbvk.html"style="Font-size: 20px">LB-Verkauf</a>
-            <a href="Bereiche/ke.html"style="Font-size: 20px">K + E</a>
-            <a href="Bereiche/mawi.html"style="Font-size: 20px">MaWi</a>
-            <a href="Bereiche/lager-versand.html"style="Font-size: 20px">Lager / Versand</a>
-            <a href="Bereiche/Produktion.html"style="Font-size: 20px">Produktion</a>
-            <a href="Bereiche/kd.html"style="Font-size: 20px">Kundendienst</a>
-            <a href="Bereiche/etvk.html"style="Font-size: 20px">ET-Verkauf</a>
+            <a href="/qmhandbuch/Bereiche/lbvk.html"style="Font-size: 20px">LB-Verkauf</a>
+            <a href="/qmhandbuch/Bereiche/ke.html"style="Font-size: 20px">K + E</a>
+            <a href="/qmhandbuch/Bereiche/mawi.html"style="Font-size: 20px">MaWi</a>
+            <a href="/qmhandbuch/Bereiche/lager-versand.html"style="Font-size: 20px">Lager / Versand</a>
+            <a href="/qmhandbuch/Bereiche/Produktion.html"style="Font-size: 20px">Produktion</a>
+            <a href="/qmhandbuch/Bereiche/kd.html"style="Font-size: 20px">Kundendienst</a>
+            <a href="/qmhandbuch/Bereiche/etvk.html"style="Font-size: 20px">ET-Verkauf</a>
         </div>
     </section>
 
     <section>
         <h2>Unterstützende Prozesse</h2>
         <div class="button-grid">
-            <a href="Bereiche/edv.html"style="Font-size: 20px">EDV</a>
+            <a href="/qmhandbuch/Bereiche/edv.html"style="Font-size: 20px">EDV</a>
             <a href="#" onclick="return false;" style="font-size: 20px; pointer-events: none; opacity: 0.5; cursor: not-allowed;">Prüfmittelüberwachung</a>
-            <a href="Bereiche/buchhaltung.html"style="Font-size: 20px">Buchhaltung</a>
+            <a href="/qmhandbuch/Bereiche/buchhaltung.html"style="Font-size: 20px">Buchhaltung</a>
         </div>
     </section>
     <!--  
