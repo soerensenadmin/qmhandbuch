@@ -4,13 +4,13 @@
     <script>
   // Einfacher Schutz mit SessionStorage
   if (sessionStorage.getItem("auth") !== "true") {
-    window.location.href = "../index.html"; // Leitet zurück zur Login-Seite
+    window.location.href = "/qmhandbuch/index.html"; // Leitet zurück zur Login-Seite
   }
 </script>
 
     <meta charset="UTF-8">
     <title>Startseite – QM-Handbuch</title>
-    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="/qmhandbuch/assets/styles.css">
 
     <style>
         /* ✅ Wasserzeichen deaktivieren */
@@ -64,7 +64,7 @@
 <body>
 
     <!-- ✅ Dein eigenes zentriertes Logo -->
-    <img src="assets/LogoClaim_Bildwort_schwarz-gelb.png" alt="Logo" class="start-logo">
+    <img src="/qmhandbuch/assets/LogoClaim_Bildwort_schwarz-gelb.png" alt="Logo" class="start-logo">
 
     <h1>Willkommen im Qualitätsmanagement-System</h1>
     <p class="einleitung">
@@ -72,9 +72,9 @@
     </p>
 
     <div class="button-grid">
-        <a href="prozesslandkarte.html">Prozesslandkarte</a>
-        <a href="QM-PDFs/qm-handbuch.pdf" target="_blank">Qualitätshandbuch (PDF)</a>
-        <a href="impressum.html">Impressum und Qualitätspolitik</a>
+        <a href="/qmhandbuch/prozesslandkarte.html">Prozesslandkarte</a>
+        <a href="/qmhandbuch/QM-PDFs/qm-handbuch.pdf" target="_blank">Qualitätshandbuch (PDF)</a>
+        <a href="/qmhandbuch/impressum.html">Impressum und Qualitätspolitik</a>
     </div>
 
 </body>
