@@ -1,7 +1,7 @@
 // Beispiel in deiner script.js
 function checkPassword() {
   const pw = document.getElementById("password").value;
-  if (pw === "ry4") {
+  if (pw === "dh5") {
     sessionStorage.setItem("auth", "true"); // merkt sich das Login
     window.location.href = "info.html";     // weiterleiten
   } else {
