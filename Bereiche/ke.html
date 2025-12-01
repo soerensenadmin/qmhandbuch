@@ -4,13 +4,13 @@
     <script>
   // Einfacher Schutz mit SessionStorage
   if (sessionStorage.getItem("auth") !== "true") {
-    window.location.href = "../index.html"; // Leitet zurück zur Login-Seite
+    window.location.href = "/qmhandbuch/index.html"; // Leitet zurück zur Login-Seite
   }
 </script>
 
     <meta charset="UTF-8">
     <title>Produktion – QM-Handbuch</title>
-    <link rel="stylesheet" href="../assets/styles.css"> <!-- Woher er sein Sytle/ Aussehen nimmt -->
+    <link rel="stylesheet" href="/qmhandbuch/assets/styles.css"> <!-- Woher er sein Sytle/ Aussehen nimmt -->
     <style>
   .topbar {
     position: fixed;
@@ -57,12 +57,12 @@
 <body>
 <nav class="topbar">
   <div class="nav-left">
-    <a href="../info.html">Startseite</a>
-    <a href="../prozesslandkarte.html">Prozesslandkarte</a>
-    <a href="../Impressum.html">Impressum | Qualitätspolitik</a>
+    <a href="/qmhandbuch/info.html">Startseite</a>
+    <a href="/qmhandbuch/prozesslandkarte.html">Prozesslandkarte</a>
+    <a href="/qmhandbuch/impressum.html">Impressum | Qualitätspolitik</a>
   </div>
   <div class="nav-right">
-    <img src="../assets/LogoClaim_Bildwort_schwarz-gelb.png" alt="Logo" class="topbar-logo">
+    <img src="/qmhandbuch/assets/LogoClaim_Bildwort_schwarz-gelb.png" alt="Logo" class="topbar-logo">
   </div>
 </nav>
 
@@ -73,57 +73,57 @@
     <h2>Dokumente:</h2> <!-- Alle PDFs Datein einfügen nach dem /xx also XX löschen und nach PDF suchen -->
     <ul>
         <!-- ALLE PB Doks -->
-        <li><a href="../QM-PDFs/PB Ladebordwandverkauf D FR GB.pdf" target="_blank">PD Ladeboardwandverkauf (PDF)</a></li>
-        <li><a href="../QM-PDFs/PB Konstruktion und Entwicklung.pdf" target="_blank">Konstruktion und Entwicklung (PDF)</a></li>
-        <li><a href="../QM-PDFs/PB Einkauf.pdf" target="_blank">Einkauf (PDF)</a></li>
-        <li><a href="../QM-PDFs/PB Arbeitsvorbereitung.pdf" target="_blank">Arbeitsvorbereitung (PDF)</a></li>
-        <li><a href="../QM-PDFs/PB Produktion (Hubwerke).pdf" target="_blank">Produktion (PDF)</a></li>
-        <li><a href="../QM-PDFs/PB QS-Kontrolle.pdf" target="_blank">QS-Kontrolle (PDF)</a></li>
-        <li><a href="../QM-PDFs/PB Reparaturberatung.pdf" target="_blank">Reparaturberatung (PDF)</a></li>
-        <li><a href="../QM-PDFs/PB Pruefmittelueberwachung.pdf" target="_blank">Prüfmittelüberwachung (PDF)</a></li>
-        <li><a href="../QM-PDFs/5.3 Abteilungs Stellenkuerzel Vertretung Abwesenheit.pdf" target="_blank">Abteilungs- und Stellenkürzel / Vertretung bei Abwesenheit (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/PB Ladebordwandverkauf D FR GB.pdf" target="_blank">PD Ladeboardwandverkauf (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/PB Konstruktion und Entwicklung.pdf" target="_blank">Konstruktion und Entwicklung (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/PB Einkauf.pdf" target="_blank">Einkauf (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/PB Arbeitsvorbereitung.pdf" target="_blank">Arbeitsvorbereitung (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/PB Produktion (Hubwerke).pdf" target="_blank">Produktion (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/PB QS-Kontrolle.pdf" target="_blank">QS-Kontrolle (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/PB Reparaturberatung.pdf" target="_blank">Reparaturberatung (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/PB Pruefmittelueberwachung.pdf" target="_blank">Prüfmittelüberwachung (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/5.3 Abteilungs Stellenkuerzel Vertretung Abwesenheit.pdf" target="_blank">Abteilungs- und Stellenkürzel / Vertretung bei Abwesenheit (PDF)</a></li>
        <!-- 7er -->
-        <li><a href="../QM-PDFs/7.1 Ressourcen Management.pdf" target="_blank">Ressourcen Management (PDF)</a></li>
-        <li><a href="../QM-PDFs/7.1.2 AA Arbeitsanweisung zur Arbeitszeit.pdf" target="_blank">Arbeitsanweisung zur Arbeitszeit (PDF)</a></li>
-        <li><a href="../QM-PDFs/7.1.3 AA Einsatz von mobilen Geraeten D FR GB.pdf" target="_blank">Einsatz von mobilen Geräten (PDF)</a></li>
-        <li><a href="../QM-PDFs/7.1.3 AA Informationssicherheit.pdf" target="_blank">Informationssicherheit (PDF)</a></li>
-        <li><a href="../QM-PDFs/7.1.3 AA IT-Sicherheit und Anweisung EDV-Nutzung D FR GB.pdf" target="_blank">IT-Sicherheit und Anweisung EDV-Nutzung (PDF)</a></li>
-         <li><a href="../QM-PDFs/7.1.5 AA Pruef- und Messmittel.pdf" target="_blank">Prüf und Messmittel (PDF)</a></li>
-        <li><a href="../QM-PDFs/7.1.5 Liste Messmittelgenauigkeit.pdf" target="_blank">Liste der Messmittelgenauigkeit (PDF)</a></li>
-        <li><a href="../QM-PDFs/7.1.5 Toleranz DIN ISO 2768.pdf" target="_blank">Toleranz DIN ISO 2768 (PDF)</a></li>
-        <li><a href="../QM-PDFs/7.5.3 Erstellen von QM-Dokumenten.pdf" target="_blank">Erstellen von QS-Dokumenten (PDF)</a></li>
-        <li><a href="../QM-PDFs/7.5.2 AA Erstellen von Technichen Informationen.pdf" target="_blank">Erstellen von technischen Informationen (PDF)</a></li>
-        <li><a href="../QM-PDFs/7.5.3 VM Lenkung dokumentierter Information.pdf" target="_blank">Lenkung der dokumentierter Informationen (PDF)</a></li>
-        <li><a href="../QM-PDFs/7.5.3 VA Aufzeichnungen.pdf" target="_blank">Aufzeichnungen (PDF)</a></li>
-        <li><a href="../QM-PDFs/7.5.3 AA Erstellen Aktualisieren von Zeichnungsunterlagen.pdf" target="_blank">Erstellen und Aktualisieren von Zeichnungsunterlagen (PDF)</a></li>
-        <li><a href="../QM-PDFs/7.5.3 Liste Aufzeichnungen.pdf" target="_blank">Liste der Aufzeichnungen (PDF)</a></li>
-        <li><a href="../QM-PDFs/7.5.3 Listung externer Dokumente.pdf" target="_blank">Listung der externen Dokumente (PDF)</a></li>
-        <li><a href="../QM-PDFs/7.5.3 VA Lenkung Dokumente Daten.pdf" target="_blank">Lenkung der Dokumente und Daten (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/7.1 Ressourcen Management.pdf" target="_blank">Ressourcen Management (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/7.1.2 AA Arbeitsanweisung zur Arbeitszeit.pdf" target="_blank">Arbeitsanweisung zur Arbeitszeit (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/7.1.3 AA Einsatz von mobilen Geraeten D FR GB.pdf" target="_blank">Einsatz von mobilen Geräten (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/7.1.3 AA Informationssicherheit.pdf" target="_blank">Informationssicherheit (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/7.1.3 AA IT-Sicherheit und Anweisung EDV-Nutzung D FR GB.pdf" target="_blank">IT-Sicherheit und Anweisung EDV-Nutzung (PDF)</a></li>
+         <li><a href="/qmhandbuch/QM-PDFs/7.1.5 AA Pruef- und Messmittel.pdf" target="_blank">Prüf und Messmittel (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/7.1.5 Liste Messmittelgenauigkeit.pdf" target="_blank">Liste der Messmittelgenauigkeit (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/7.1.5 Toleranz DIN ISO 2768.pdf" target="_blank">Toleranz DIN ISO 2768 (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/7.5.3 Erstellen von QM-Dokumenten.pdf" target="_blank">Erstellen von QS-Dokumenten (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/7.5.2 AA Erstellen von Technichen Informationen.pdf" target="_blank">Erstellen von technischen Informationen (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/7.5.3 VM Lenkung dokumentierter Information.pdf" target="_blank">Lenkung der dokumentierter Informationen (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/7.5.3 VA Aufzeichnungen.pdf" target="_blank">Aufzeichnungen (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/7.5.3 AA Erstellen Aktualisieren von Zeichnungsunterlagen.pdf" target="_blank">Erstellen und Aktualisieren von Zeichnungsunterlagen (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/7.5.3 Liste Aufzeichnungen.pdf" target="_blank">Liste der Aufzeichnungen (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/7.5.3 Listung externer Dokumente.pdf" target="_blank">Listung der externen Dokumente (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/7.5.3 VA Lenkung Dokumente Daten.pdf" target="_blank">Lenkung der Dokumente und Daten (PDF)</a></li>
         <!-- 8er -->
-        <li><a href="../QM-PDFs/8.2.2 AA Marktueberwachung.pdf" target="_blank">Marktüberwahung (PDF)</a></li>
-        <li><a href="../QM-PDFs/8.2.3 VA EG-Typgenehmigung.pdf" target="_blank">EG-Typgenehmigung (PDF)</a></li>
-        <li><a href="../QM-PDFs/8.2.3 AA KKK-Typgenehmigung.pdf" target="_blank">KKK-Typgenehmigung (PDF)</a></li>
-        <li><a href="../QM-PDFs/8.2.3 AA UFZ-Typgenehmigung.pdf" target="_blank">UFZ-Typgenehmigung (PDF)</a></li>
-        <li><a href="../QM-PDFs/8.2.3 AA EMV-Typgenehmigung.pdf" target="_blank">EMV-Typgenehmigung (PDF)</a></li>
-        <li><a href="../QM-PDFs/8.3.4 PA Pruefungen 2.pdf" target="_blank">Prüfung II (PDF)</a></li>
-        <li><a href="../QM-PDFs/8.3.5 AA Pruefungen Dauertest.pdf" target="_blank">Prüfung Dauertest (PDF)</a></li>
-        <li><a href="../QM-PDFs/8.4.1 VA Lieferantenbewertung.pdf" target="_blank">Lieferantenbewertung (PDF)</a></li>
-        <li><a href="../QM-PDFs/8.4.2 Allgemeine Pruefanweisung für WE und QS Kontrolle.pdf" target="_blank">Allgemeine Prüfanweisung für WE und QS-Kontrolle (PDF)</a></li>
-        <li><a href="../QM-PDFs/8.4.2 PA Pruefungen 1.pdf" target="_blank">Prüfung I (PDF)</a></li>
-        <li><a href="../QM-PDFs/8.4.2 AA Stichprobenverfahren.pdf" target="_blank">Stichprobenverfahren (PDF)</a></li>
-        <li><a href="../QM-PDFs/8.4.2 Soerensen Oberflaechen-Spezifikation.pdf" target="_blank">Sörensen Oberflächen-Spezifikation (PDF)</a></li>
-        <li><a href="../QM-PDFs/8.4.2 Soerensen Schweiß-Spezifikation ALU.pdf" target="_blank">Sörensen Schweiß-Spezifikation ALU (PDF)</a></li>
-        <li><a href="../QM-PDFs/8.4.2 Soerensen Schweiß-Spezifikation STAHL.pdf" target="_blank">Sörensen Schweiß-Spezifikation STAHL (PDF)</a></li>
-        <li><a href="../QM-PDFs/8.5.1 AA Vormontage Zylinder.pdf" target="_blank">Vormontage Zylinder (PDF)</a></li>
-        <li><a href="../QM-PDFs/8.5.1 AA Hubwerk-Finalisierung.pdf" target="_blank">Hubwerk-Finalisierung (PDF)</a></li>
-        <li><a href="../QM-PDFs/8.5.2 VA Kennzeichnung und Rueckverfolgbarkeit.pdf" target="_blank">Kennzeichnung und Rückverfolgbarkeit (PDF)</a></li>
-        <li><a href="../QM-PDFs/8.5.2 AA Kennzeichnung fertiger Geraete.pdf" target="_blank">Kennzeichnung fertiger Geräte (PDF)</a></li>
-        <li><a href="../QM-PDFs/8.5.2 AA Genehmigungskennzeichnung KBA.pdf" target="_blank">Genehmigungskennzeichnung KBA (PDF)</a></li>
-        <li><a href="../QM-PDFs/8.5.4 AA Handhabung Verpackung Lagerung Versand.pdf" target="_blank">Handhabung Verpackung/Lagerung/Versand (PDF)</a></li>
-        <li><a href="../QM-PDFs/8.5.5 AA Montageberatung D FR GB.pdf" target="_blank">Montageberatung (PDF)</a></li>
-        <li><a href="../QM-PDFs/8.7 VA Lenkung fehlerhafter Produkte D FR GB.pdf" target="_blank">Lenkung fehlerhafter Produkte (PDF)</a></li>
-        <li><a href="../QM-PDFs/8.7 VA Interne Fehler in der Produktion.pdf" target="_blank">interne Fehler in der Produktion (PDF)</a></li>
-        <li><a href="../QM-PDFs/9.2 VA Interne Audits.pdf" target="_blank">interne Audits (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/8.2.2 AA Marktueberwachung.pdf" target="_blank">Marktüberwahung (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/8.2.3 VA EG-Typgenehmigung.pdf" target="_blank">EG-Typgenehmigung (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/8.2.3 AA KKK-Typgenehmigung.pdf" target="_blank">KKK-Typgenehmigung (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/8.2.3 AA UFZ-Typgenehmigung.pdf" target="_blank">UFZ-Typgenehmigung (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/8.2.3 AA EMV-Typgenehmigung.pdf" target="_blank">EMV-Typgenehmigung (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/8.3.4 PA Pruefungen 2.pdf" target="_blank">Prüfung II (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/8.3.5 AA Pruefungen Dauertest.pdf" target="_blank">Prüfung Dauertest (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/8.4.1 VA Lieferantenbewertung.pdf" target="_blank">Lieferantenbewertung (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/8.4.2 Allgemeine Pruefanweisung für WE und QS Kontrolle.pdf" target="_blank">Allgemeine Prüfanweisung für WE und QS-Kontrolle (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/8.4.2 PA Pruefungen 1.pdf" target="_blank">Prüfung I (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/8.4.2 AA Stichprobenverfahren.pdf" target="_blank">Stichprobenverfahren (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/8.4.2 Soerensen Oberflaechen-Spezifikation.pdf" target="_blank">Sörensen Oberflächen-Spezifikation (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/8.4.2 Soerensen Schweiß-Spezifikation ALU.pdf" target="_blank">Sörensen Schweiß-Spezifikation ALU (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/8.4.2 Soerensen Schweiß-Spezifikation STAHL.pdf" target="_blank">Sörensen Schweiß-Spezifikation STAHL (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/8.5.1 AA Vormontage Zylinder.pdf" target="_blank">Vormontage Zylinder (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/8.5.1 AA Hubwerk-Finalisierung.pdf" target="_blank">Hubwerk-Finalisierung (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/8.5.2 VA Kennzeichnung und Rueckverfolgbarkeit.pdf" target="_blank">Kennzeichnung und Rückverfolgbarkeit (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/8.5.2 AA Kennzeichnung fertiger Geraete.pdf" target="_blank">Kennzeichnung fertiger Geräte (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/8.5.2 AA Genehmigungskennzeichnung KBA.pdf" target="_blank">Genehmigungskennzeichnung KBA (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/8.5.4 AA Handhabung Verpackung Lagerung Versand.pdf" target="_blank">Handhabung Verpackung/Lagerung/Versand (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/8.5.5 AA Montageberatung D FR GB.pdf" target="_blank">Montageberatung (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/8.7 VA Lenkung fehlerhafter Produkte D FR GB.pdf" target="_blank">Lenkung fehlerhafter Produkte (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/8.7 VA Interne Fehler in der Produktion.pdf" target="_blank">interne Fehler in der Produktion (PDF)</a></li>
+        <li><a href="/qmhandbuch/QM-PDFs/9.2 VA Interne Audits.pdf" target="_blank">interne Audits (PDF)</a></li>
     </ul>
 
 
